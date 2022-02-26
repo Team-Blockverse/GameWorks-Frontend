@@ -1,0 +1,36 @@
+body {
+  background: rgb(100, 0, 150);
+  color: rgb(235, 235, 235);
+  font-family: sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 2px;
+}
+
+.title {
+  font-weight: lighter;
+  font-family: "KennyPixel";
+  font-size: 48px;
+  margin-top: 8px;
+}
+
+.subtitle {
+  font-weight: lighter;
+  font-family: "KennyPixel";
+  font-size: 36px;
+}
+
+.gameslot {
+  height: 100px;
+  width: 200px;
+  background: rgb(40, 40, 40);
+  box-shadow: 2px 2px 4px rgb(20, 20, 20);
+  border: none;
+  margin-left: 5px;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "KennyPixel";
+  src: url("./assets/fonts/KennyPixel.ttf");
+}
